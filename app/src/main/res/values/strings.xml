@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExperimentApp</string>
+    <string name="go_to_sticky_section">Go to Sticky Section</string>
+    <string name="go_to_search_screen"> Go to Search Screen </string>
+</resources>
