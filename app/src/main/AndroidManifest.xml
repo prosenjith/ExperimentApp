@@ -28,6 +28,7 @@
             android:name=".stickysection.StickySectionActivity"
             android:label="Search" />
         <activity android:name=".paging3.ui.PagingActivity" />
+        <activity android:name=".workmanager.WorkerActivity" />
     </application>
 
 </manifest>

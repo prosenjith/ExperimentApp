@@ -7,6 +7,7 @@ import com.example.experimentapp.databinding.ActivityMainBinding
 import com.example.experimentapp.paging3.ui.PagingActivity
 import com.example.experimentapp.search.SearchActivity
 import com.example.experimentapp.stickysection.StickySectionActivity
+import com.example.experimentapp.workmanager.WorkerActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,6 +27,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.buttonGotoPaginationScreen.setOnClickListener {
             startActivity(Intent(this, PagingActivity::class.java))
+        }
+
+        binding.buttonGotoWorkManagerScreen.setOnClickListener {
+            startActivity(Intent(this, WorkerActivity::class.java))
         }
     }
 }

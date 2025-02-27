@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.paging)
+    implementation(libs.androidx.workmanager)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

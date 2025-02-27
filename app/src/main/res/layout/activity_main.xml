@@ -17,17 +17,27 @@
         android:id="@+id/buttonGotoStickySection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
         android:text="@string/go_to_sticky_section" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonGotoSearchScreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
         android:text="@string/go_to_search_screen" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonGotoPaginationScreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
         android:text="@string/go_to_pagination_screen" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonGotoWorkManagerScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:text="@string/go_to_workmanager" />
 </LinearLayout>

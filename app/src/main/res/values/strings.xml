@@ -3,4 +3,5 @@
     <string name="go_to_sticky_section">Go to Sticky Section</string>
     <string name="go_to_search_screen"> Go to Search Screen </string>
     <string name="go_to_pagination_screen">Go to Pagination Screen</string>
+    <string name="go_to_workmanager">Go to WorkManager</string>
 </resources>
