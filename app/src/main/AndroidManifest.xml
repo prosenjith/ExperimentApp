@@ -22,11 +22,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SearchActivity"
+            android:name=".search.SearchActivity"
             android:label="Search" />
         <activity
-            android:name=".StickySectionActivity"
+            android:name=".stickysection.StickySectionActivity"
             android:label="Search" />
+        <activity android:name=".paging3.ui.PagingActivity" />
     </application>
 
 </manifest>

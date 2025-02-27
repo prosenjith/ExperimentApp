@@ -1,11 +1,11 @@
-package com.example.experimentapp
+package com.example.experimentapp.stickysection
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.experimentapp.R
 
 class StickySectionActivity : AppCompatActivity() {
 

@@ -1,9 +1,10 @@
-package com.example.experimentapp
+package com.example.experimentapp.search
 
 import android.os.Bundle
 import android.widget.AutoCompleteTextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.example.experimentapp.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow

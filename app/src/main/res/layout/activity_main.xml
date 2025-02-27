@@ -10,8 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimaryDark"
-        app:titleTextColor="@color/black"
-        app:title="Home" />
+        app:title="Home"
+        app:titleTextColor="@color/black" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonGotoStickySection"
@@ -24,4 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/go_to_search_screen" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonGotoPaginationScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_pagination_screen" />
 </LinearLayout>
