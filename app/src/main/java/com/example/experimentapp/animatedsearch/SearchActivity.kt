@@ -1,4 +1,4 @@
-package com.example.experimentapp.search
+package com.example.experimentapp.animatedsearch
 
 import android.os.Bundle
 import android.widget.AutoCompleteTextView

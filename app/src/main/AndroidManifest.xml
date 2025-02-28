@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".search.SearchActivity"
+            android:name=".animatedsearch.SearchActivity"
             android:label="Search" />
         <activity
             android:name=".stickysection.StickySectionActivity"

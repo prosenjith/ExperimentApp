@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.experimentapp.databinding.ActivityMainBinding
 import com.example.experimentapp.paging3.ui.PagingActivity
-import com.example.experimentapp.search.SearchActivity
+import com.example.experimentapp.animatedsearch.SearchActivity
 import com.example.experimentapp.stickysection.StickySectionActivity
 import com.example.experimentapp.workmanager.WorkerActivity
 
