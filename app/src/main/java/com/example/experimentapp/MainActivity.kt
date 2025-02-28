@@ -7,6 +7,7 @@ import com.example.experimentapp.databinding.ActivityMainBinding
 import com.example.experimentapp.paging3.ui.PagingActivity
 import com.example.experimentapp.animatedsearch.SearchActivity
 import com.example.experimentapp.stickysection.StickySectionActivity
+import com.example.experimentapp.videoplayer.VideoPlayerActivity
 import com.example.experimentapp.workmanager.WorkerActivity
 
 class MainActivity : AppCompatActivity() {
@@ -31,6 +32,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.buttonGotoWorkManagerScreen.setOnClickListener {
             startActivity(Intent(this, WorkerActivity::class.java))
+        }
+
+        binding.buttonVideoPlayerScreen.setOnClickListener {
+            startActivity(Intent(this, VideoPlayerActivity::class.java))
         }
     }
 }

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -29,6 +31,11 @@
             android:label="Search" />
         <activity android:name=".paging3.ui.PagingActivity" />
         <activity android:name=".workmanager.WorkerActivity" />
+        <activity
+            android:name=".videoplayer.VideoPlayerActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"/>
     </application>
 
 </manifest>

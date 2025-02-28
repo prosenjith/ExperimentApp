@@ -48,6 +48,10 @@ dependencies {
     implementation(libs.androidx.paging)
     implementation(libs.androidx.workmanager)
 
+    implementation(libs.media3.exoplayer)
+    implementation(libs.media3.exoplayer.dash)
+    implementation(libs.media3.ui)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -40,4 +40,11 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="12dp"
         android:text="@string/go_to_workmanager" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonVideoPlayerScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:text="@string/go_to_video_player_screen" />
 </LinearLayout>
