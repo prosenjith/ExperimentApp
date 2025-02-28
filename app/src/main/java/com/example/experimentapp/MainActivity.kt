@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.experimentapp.databinding.ActivityMainBinding
 import com.example.experimentapp.paging3.ui.PagingActivity
 import com.example.experimentapp.animatedsearch.SearchActivity
+import com.example.experimentapp.audioplayer.AudioPlayerActivity
 import com.example.experimentapp.stickysection.StickySectionActivity
 import com.example.experimentapp.videoplayer.VideoPlayerActivity
 import com.example.experimentapp.workmanager.WorkerActivity
@@ -36,6 +37,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.buttonVideoPlayerScreen.setOnClickListener {
             startActivity(Intent(this, VideoPlayerActivity::class.java))
+        }
+
+        binding.buttonAudioPlayerScreen.setOnClickListener {
+            startActivity(Intent(this, AudioPlayerActivity::class.java))
         }
     }
 }

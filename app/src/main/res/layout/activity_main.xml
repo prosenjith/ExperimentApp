@@ -47,4 +47,11 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="12dp"
         android:text="@string/go_to_video_player_screen" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonAudioPlayerScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:text="@string/go_to_audio_player_screen" />
 </LinearLayout>

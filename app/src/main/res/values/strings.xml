@@ -5,4 +5,7 @@
     <string name="go_to_pagination_screen">Go to Pagination Screen</string>
     <string name="go_to_workmanager">Go to WorkManager</string>
     <string name="go_to_video_player_screen">Go to Video Player Screen</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="pause_audio">Pause Audio</string>
+    <string name="go_to_audio_player_screen">Go to Audio Player Screen</string>
 </resources>
